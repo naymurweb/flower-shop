@@ -127,15 +127,16 @@ main section {
 .flowers {
   display: flex;
   gap: 25px;
-  margin: 80px 0;
+  margin: 70px 0;
 }
 
 /* hot deal section */
+
 .hot-deal-section {
   background-color: rgba(229, 84, 115, 0.05);
 }
 
-.hot-deal{
+.hot-deal {
   display: flex;
   justify-content: space-between;
   padding: 80px 0;
@@ -143,6 +144,15 @@ main section {
   text-align: center;
   gap: 50px;
 }
-.hot-deal p{
+
+.hot-deal p {
   margin: 20px 0 40px 0;
+}
+
+/* social section */
+
+.social-cards {
+  display: flex;
+  gap: 25px;
+  margin: 70px 0;
 }
