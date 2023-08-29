@@ -159,15 +159,15 @@ main section {
 
 /* email section */
 
-.email-subscribe{
-background-image: url('../images/Rectangle 9.png');
-background-repeat: no-repeat;
-background-size: cover;
-padding: 120px;
-border-radius: 8px;
+.email-subscribe {
+  background-image: url("../images/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px;
+  border-radius: 8px;
 }
 
-form{
+form {
   text-align: end;
 }
 
@@ -177,4 +177,27 @@ input[type="email"] {
   width: 600px;
   border: none;
   margin-right: 16px;
+}
+
+/* footer section */
+.footer div {
+  background-color: #111010;
+  padding: 120px;
+  text-align: center;
+}
+
+.mark {
+  color: #e55473;
+}
+
+.footer-content h2 {
+  color: white;
+}
+
+.footer-content > p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-content .pra {
+  margin: 20px 0 30px 0;
 }
