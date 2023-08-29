@@ -156,3 +156,25 @@ main section {
   gap: 25px;
   margin: 70px 0;
 }
+
+/* email section */
+
+.email-subscribe{
+background-image: url('../images/Rectangle 9.png');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 120px;
+border-radius: 8px;
+}
+
+form{
+  text-align: end;
+}
+
+input[type="email"] {
+  background-color: white;
+  padding: 20px;
+  width: 600px;
+  border: none;
+  margin-right: 16px;
+}
