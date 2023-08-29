@@ -93,6 +93,22 @@ main section {
   margin: 24px;
 }
 
+.flower1,
+.flower2,
+.flower3 {
+  border-radius: 300px 300px 0px 0px;
+  padding: 80px 50px 0 50px;
+}
+
+.flower1 {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.flower2 {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.flower3 {
+  background-color: rgba(71, 125, 17, 0.15);
+}
 .flower-card {
   text-align: center;
 }
@@ -111,5 +127,5 @@ main section {
 .flowers {
   display: flex;
   gap: 25px;
-  margin: 50px 0;
+  margin: 80px 0;
 }
