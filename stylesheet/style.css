@@ -157,6 +157,35 @@ main section {
   margin: 70px 0;
 }
 
+/* blogs */
+
+.blogs {
+  display: flex;
+  gap: 25px;
+}
+.item {
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.item-content {
+  padding: 30px;
+}
+
+small {
+  display: block;
+  margin: 10px 0;
+}
+
+#btn {
+  border: none;
+  color: #e55473;
+  font-size: 16px;
+  background-color: white;
+  font-weight: bold;
+  margin-top: 8px;
+  cursor: pointer;
+}
 /* email section */
 
 .email-subscribe {
