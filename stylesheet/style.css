@@ -21,7 +21,7 @@ h2 {
   font-size: 40px;
 }
 h3 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 p {
@@ -39,6 +39,9 @@ h3 {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+img {
+  width: 100%;
 }
 
 /* share style */
@@ -71,6 +74,42 @@ header {
 .hero-area div {
   width: 50%;
 }
+
 .hero-content > p {
   margin: 30px 0;
+}
+
+/* featured */
+
+main section {
+  margin: 140px 0;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title p {
+  margin: 24px;
+}
+
+.flower-card {
+  text-align: center;
+}
+
+.flower-card h3 {
+  margin: 30px 0;
+  color: #272727;
+}
+
+.flower {
+  background-color: rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  padding: 50px 50px 0 50px;
+}
+
+.flowers {
+  display: flex;
+  gap: 25px;
+  margin: 50px 0;
 }
